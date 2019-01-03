@@ -1,3 +1,8 @@
+// MDB Lightbox Init
+$(function () {
+$("#mdb-lightbox-ui").load("mdb-addons/mdb-lightbox-ui.html");
+});
+
 //function UpdateTime(){
         
   //  var today = new Date();
@@ -22,8 +27,8 @@
 
 }
 
-
-
+*/
+/*
 var currentTime = new Date()
 var hours = currentTime.getHours()
 var minutes = currentTime.getMinutes()
@@ -86,8 +91,8 @@ window.onload = function() {
     }
 }
 */
-
-/*function date_time(id)
+/*
+function date_time(id)
 {        date = new Date;
         year = date.getFullYear();
         month = date.getMonth();
@@ -115,7 +120,7 @@ window.onload = function() {
         setTimeout('date_time("'+id+'");','1000');
         return true;
 }
-/*
+
 window.onload = function () {
     clock();
     function clock() {
@@ -140,10 +145,9 @@ window.onload = function () {
         document.getElementById('Currenttime').innerHTML = hour + ':' + min + mid;
         setTimeout(clock, 1000);
     }
-}*/
-
+}
 function fullDateTime() {
     var d = new Date();
     var n = d.toLocaleString([], { hour12: true });
-    document.getElementById("Currenttime").innerHTML = n;
-}
+    document.getElementById("Currenttime").innerHTML = + n ;
+}*/

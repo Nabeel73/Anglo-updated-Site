@@ -2,10 +2,55 @@
 
 <html lang="en" xmlns="http://www.w3.org/1999/xhtml">
 <head>
-    <meta charset="utf-8" />
-    <title>Contact</title>
+        <meta charset="utf-8"/>
+        <!---link rel="stylesheet" href="style/form.css" type="text/css">-->
+        <title>Contact</title>
+      
 </head>
-<body>
+<style>
+  body{
+    background-color:lightgrey; 
+  }
+    form{
+      background-color: azure;
+      width: 400px;
+      height: 600px;
+      display: inline-block;
+      line-height: 55px;
+      color: blue;
+      
+    }
+    input[type=text]{
+      input[type=text], select {
+       width: 100%;
+      padding: 12px 20px;
+      margin: 8px 0;
+      display: inline-block;
+       border: 1px solid #ccc;
+       border-radius: 4px;
+       box-sizing: border-box;
 
+    }
+ </style>
+<body> 
+ <center>
+  
+  <div class="content"> 
+  <form>
+  <h3>Fill this form</h3>
+  Full Name  <input type="text" placeholder="Nabeel Ahmed"  name="FullName" required=""><br>
+  Cnic No <input type="text" placeholder="Without Dashes" required=""><br>
+  Moblie <input type="text" placeholder="+923001234567" required=""><br>
+  Email <input type="email" name="userid"><br>
+  Address<textarea type="text" placeholder="Present/Current Complete Address"></textarea><br>
+  <input type="submit" value="Submit">
+
+</div>
+
+</center>
+
+
+    
+     
 </body>
 </html>
