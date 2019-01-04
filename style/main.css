@@ -54,49 +54,6 @@ ul.navbar-left-menu li a
        text-decoration: none;
         cursor: pointer;
     }
-/*NEW DROPDOWN CSS
-  ul {
-    background:black;
-      list-style: none;
-      margin: 0;
-      float: right;
-  }
-  li {
-      color: #fff;
-      display: block;
-      float: left;
-      padding: 0px;
-      position: relative;
-      text-decoration: none;
-    transition-duration: 0.5s;
-    background: black;
-  }
-   ul li ul {
- visibility: hidden;
-  opacity: 0;
-    min-width: 0rem;
-    transition: all 0.5s ease;
-    margin-top: 2rem;
-      left: 0;
-    display: none;
-  }
-  
-  ul li:hover > ul,
-  ul li ul:hover {
-    visibility: visible;
-    opacity: 1;
-    display: inline;
-    min-width: 5em;
-    height:25em;
-   
-  }
-  
-  ul li ul li {
-      clear: both;
-      padding: none;
-    
-  }
-*/
            
 /* SECTION CSS*/
 .slider_box{
@@ -199,4 +156,3 @@ ul.footer_list li:hover
     padding: 0px 11px 10px;
     text-align: center; 
 }
-
