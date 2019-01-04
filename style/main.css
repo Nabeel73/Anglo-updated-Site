@@ -28,7 +28,7 @@ body {
     margin-left: 25px;
     }
 .navbar-warp {
-    background-color: #1a5276; dodgerblue;
+    background-color: #1a5276;
     height:40px;
     text-align: right;
     text-decoration: none;
@@ -50,7 +50,7 @@ ul.navbar-left-menu li a
   
 }
     ul.navbar-left-menu li a:hover {
-        color:yellow; aqua;
+        color:yellow;
        text-decoration: none;
         cursor: pointer;
     }
@@ -112,11 +112,11 @@ ul.navbar-left-menu li a
     text-transform: uppercase;
     padding: 0px 5px 5px 08px;
     backface-visibility: visible;
-    background-color: #1a5276; dodgerblue;
+    background-color: #1a5276; 
 }
 .left_box {
-    font-size: 18px;
-    padding: 15px 5px 5px 4px;
+    font-size:18px;
+    padding:15px 5px 5px 4px;
     height:350px;
 }
 .mid_box {
@@ -156,6 +156,7 @@ div.campus_2:hover {
     color: white;
     font-size: 25px;
 }*/
+
 .quaid {
     padding: 25px 10px 25px 15px;
  }
@@ -173,9 +174,9 @@ p{
     text-decoration-style: solid;
 }
 .footer {
-    background-color: #1a5276; ThreeDDarkShadow;
+    background-color: #1a5276;
     height: 325px;
-    text-align: center;
+    text-align:center;
 }
 ul.footer_list li{
     padding:50px  15px 8px 25px;
@@ -190,7 +191,6 @@ ul.footer_list li a{
 }
 ul.footer_list li:hover
 {
-    //background-color:blue;
     text-decoration:none;
     color:aqua;
  }
