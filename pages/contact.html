@@ -9,20 +9,54 @@
 </head>
 <style>
   body{
-    background-color:lightgrey; 
-  }
+    margin: 0px auto;
+    font-size: 20px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
+    
+    
+    }
+  div{
+  border-radius: 5px;
+  padding: 0px;
+  background-color:azure;
+
+  
+
+}
     form{
       background-color: azure;
-      width: 400px;
+      width: 500px;
       height: 600px;
       display: inline-block;
-      line-height: 55px;
-      color: blue;
+      line-height: 25px;
+      color:black; 
       
     }
+    
     input[type=text]{
-      input[type=text], select {
        width: 100%;
+      padding: 12px 20px;
+      margin: 8px 0;
+      display: inline-block;
+       border: 2px solid #ccc;
+       border-radius: 4px;
+       box-sizing: border-box;
+
+    }
+
+    input[type=email]{
+      width: 100%;
+      padding: 12px 20px;
+      margin: 8px 0;
+      display: inline-block;
+       border: 1px solid #ccc;
+       border-radius: 4px;
+       box-sizing: border-box;
+    }
+    textarea[type=text]{
+      width: 100%;
+      height: 100px;
       padding: 12px 20px;
       margin: 8px 0;
       display: inline-block;
@@ -37,19 +71,19 @@
   
   <div class="content"> 
   <form>
-  <h3>Fill this form</h3>
-  Full Name  <input type="text" placeholder="Nabeel Ahmed"  name="FullName" required=""><br>
-  Cnic No <input type="text" placeholder="Without Dashes" required=""><br>
-  Moblie <input type="text" placeholder="+923001234567" required=""><br>
-  Email <input type="email" name="userid"><br>
-  Address<textarea type="text" placeholder="Present/Current Complete Address"></textarea><br>
+  <h1>Contact Us</h1>
+  Full Name  <input type="text" placeholder="Nabeel Ahmed"  name="FullName" required="">
+  Cnic No <input type="text" placeholder="Without Dashes" required="">
+  Moblie <input type="text" placeholder="+923001234567" required="">
+  Email <input type="email" name="userid" placeholder="david_hussy@mail.com"><br>
+  Your Message<textarea type="text" name="question" required="">Enter your question here</textarea>
+
+<!--  Address<textarea type="text" placeholder="Present/Current Complete Address"></textarea><br>-->
   <input type="submit" value="Submit">
 
 </div>
 
 </center>
-
-
     
      
 </body>
