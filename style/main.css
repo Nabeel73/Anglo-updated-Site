@@ -35,24 +35,17 @@ body {
     text-decoration: none;
     box-shadow: 1px 2px 5px 0 rgba(0, 0, 0, 0.12);
 }
-.dropdown {
-    position:sticky ;
-    display: none;
-  }
 a{
     text-decoration: none;
     }
     ul {
       background:  black;
       list-style: none;
-        float: right;
-        box-shadow: 0px 8px 16px 2px rgba(4,5,2,0.12);
-        min-width: 80px;
-      
+      float: right;
+      box-shadow: 0px 8px 16px 2px rgba(4,5,2,0.12);
     }
-        
     li {
-            color: #fff;
+           color: #fff;
             background:darkred;
             display:inline-block;
             padding: 8px 25px 5px 25px ;
@@ -63,37 +56,27 @@ a{
             font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     
     }
-       
-    li a {
-       color: #fff;
-    }
-    li:hover {
-           cursor: pointer;
-            color:white;
-           max-width:100px;
-          
-       }
-      ul li ul {
-        
-      
+                
+        li a {
+            color: #fff;
+            padding:0px 15px 15px ;
+        }
+        li:hover {
+            background: red;
+            cursor: pointer;
+        }
+      ul li ul {      
            visibility: hidden;
             transition: all 0.5s ease;
             display: none;
           background-color: #f1f1f1;
-  
-       
+      
         }
         ul li:hover > ul,
-        ul li :hover {
+        ul li ul:hover {
           visibility: visible;
           opacity: 1;
           display: block;
-  
-        }
-        
-        ul li ul li {
-            clear: both;
-          width: 50px;
         }
   /* 
 ul.navbar-left-menu li  {
@@ -122,8 +105,7 @@ ul.navbar-left-menu li a:hover {
       width: 100%;
     height:600px;
     background-color:whitesmoke;
-    position: relative;
-
+  
 }
 .heading {
     text-align: center;
